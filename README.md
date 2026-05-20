@@ -14,6 +14,10 @@ Complete RAG setup file for AI model training. Ollama supported
 _<code>./venv/bin/python Setup.py</code>_ <p>
 <code>--model [ollama model name]</code> --> Example <code>./venv/bin/python Setup.py --model krikri-gpu:latest</code><br>
 After load of model Setup.py support indexing from a database (.xml.bz2 dump), like Wikipedia.
-**Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full filepath of .xml.bz2]
+**Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full file path of .xml.bz2]
 
-Focus
+## Focus
+
+
+## Credits
+"All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by Kapelo Team, which consists of @Android_Creator5 and Aster."
