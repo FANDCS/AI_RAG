@@ -10,15 +10,17 @@ This project was created as part of our participation in the [18th Student Confe
 
 
 ## Parameters
-<code>--model [ollama model name]</code> --> Example <code>./venv/bin/python Setup.py --model krikri-gpu:latest</code><br>
+<code>--model [ollama model name*]</code> --> Example <code>./venv/bin/python Setup.py --model krikri-gpu:latest</code><br>
 After load of model Setup.py support indexing from a database (.xml.bz2 dump), like Wikipedia.
 **Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full file path of .xml.bz2]
+<br>_*Ollama model name can be found be the execute of command <code>ollama list</code>_
 
 ## Abilities
 - Support OCR from images, pdfs, pptx
 - In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing.<br>
 - It supports the automatic extraction of files to the output folder.
 - Multithread
+- Progress check
 
 ## Paths
 **Full file path folder**<pre>
