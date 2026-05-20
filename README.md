@@ -28,6 +28,7 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 - It supports the automatic extraction of files to the output folder
 - Multithread
 - Progress check
+- 100% locally executed (No API keys required)
 
 ## Paths
 **Full file path folder**<pre>
