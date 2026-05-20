@@ -1,5 +1,5 @@
 # AI Python RAG Setup
-This project was created as part of our participation in the [18th Student Conference](https://www.synedrio.kmaked.eu/) (2026), which took place at [Noesis](https://www.noesis.edu.gr) and was organized by the [1st EK of Evosmos](https://ekevosmou.eu/). This work was completed by the students [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/), under the supervision of teachers Zoe Belli and George Arnaoutoglou.
+This project was created as part of our participation in the [18th Student Conference](https://www.synedrio.kmaked.eu/) (2026), which took place at [Noesis](https://www.noesis.edu.gr) and was organized by the [1st EK of Evosmos](https://ekevosmou.eu/). This work was completed by the students [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/Mr-sk1llZ), under the supervision of teachers Zoe Belli and George Arnaoutoglou.
 
 ## Setup - Linux (Python 3)
 1. <code>cd [directory of use]</code>
@@ -37,5 +37,5 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 `-- Setup.py             (Main application script)</pre>
 
 ### Credits
-All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by **Kapelo Team**, which consists of @AndroidCreator5 and Asteris(aka Mr-sk1llZ).
+All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by **Kapelo Team**, which consists of [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/Mr-sk1llZ).
 <br>__Python libraries: chromadb, pypdf, python-pptx, tqdm, requests, pytesseract, pdf2image, pillow, mwparserfromhell__
