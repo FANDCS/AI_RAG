@@ -1,7 +1,14 @@
 # AI Python RAG Setup
-This project was created as part of our participation in the [18th Student Conference](https://www.synedrio.kmaked.eu/) (2026), which took place at [Noesis](https://www.noesis.edu.gr) and was organized by the [1st EK of Evosmos](https://ekevosmou.eu/). This work was completed by the students [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/Mr-sk1llZ), under the supervision of teachers Zoe Belli and George Arnaoutoglou.
+This project was created as part of our participation in the [18th Student Conference](https://www.synedrio.kmaked.eu/) (2026), which took place at [Noesis](https://www.noesis.edu.gr) and was organized by the [1st EK of Evosmos](https://ekevosmou.eu/). This work was completed by the students [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/Mr-sk1llZ) as **Kapelo Team**, under the supervision of teachers Zoe Belli and George Arnaoutoglou.
 
-## Setup - Linux (Python 3)
+**What is RAG?**<br>
+Retrieval-Augmented Generation (or RAG), which loads a specific dataset into an AI model. Without it, a highly intricate and complex model training process would be required. Essentially, RAG converts text into vectors and then splits it into chunks, enabling the model to understand what that information represents. Also you can search more informations in [Web](https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=What+is+RAG)
+
+## Setup Ollama
+1. Go to [ollama.com](https://ollama.com/) and select a model
+2. Execute command <code>ollama run [full model name]</code> --> Example <code>ollama run ilsp/llama-krikri-8b-instruct:q4_k_m</code>
+
+## Setup RAG File - Linux (Python 3)
 1. <code>cd [directory of use]</code>
 2. <code>python -m venv venv</code>
 3. <code>./venv/bin/pip install --upgrade pip</code> --only at install (one time)
@@ -17,8 +24,8 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 
 ## Abilities
 - Support OCR from images, pdfs, pptx
-- In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing.<br>
-- It supports the automatic extraction of files to the output folder.
+- In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing<br>
+- It supports the automatic extraction of files to the output folder
 - Multithread
 - Progress check
 
