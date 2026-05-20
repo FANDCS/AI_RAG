@@ -19,5 +19,7 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 ## Focus
 
 
+
 ## Credits
 "All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by Kapelo Team, which consists of @Android_Creator5 and Aster."
+<br>Python libraries: chromadb, pypdf, python-pptx, tqdm, requests, pytesseract, pdf2image, pillow, mwparserfromhell
