@@ -1,6 +1,5 @@
 # AI_RAG
-Complete RAG setup file for AI model training. Ollama supported
-
+This project was created as part of our participation in the [18th Student Conference](https://www.synedrio.kmaked.eu/), which took place at [Noesis](https://www.noesis.edu.gr) and was organized by the [1st EK of Evosmos](https://ekevosmou.eu/). This work was completed by the students Lefteris Trompakas and Asteris Tsiboukas, under the supervision of teachers Zoe Belli and George Arnaoutoglou.
 
 ## Setup - Linux (Python 3)
 1. <code>cd [directory of use]</code>
@@ -16,8 +15,10 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 **Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full file path of .xml.bz2]
 
 ## Abilities
-In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing.<br>
-It supports the automatic extraction of files to the output folder.
+- Support OCR from images, pdfs, pptx
+- In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing.<br>
+- It supports the automatic extraction of files to the output folder.
+- Multithread
 
 ## Paths
 **Full file path folder**<pre>
