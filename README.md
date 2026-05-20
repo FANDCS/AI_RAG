@@ -18,7 +18,7 @@ Retrieval-Augmented Generation (or RAG), which loads a specific dataset into an 
 
 ## Parameters
 <code>--model [ollama model name*]</code> --> Example <code>./venv/bin/python Setup.py --model krikri-gpu:latest</code><br>
-After load of model Setup.py support indexing from a database (.xml.bz2 dump), like Wikipedia.
+After load of model Setup.py support indexing from a database (.xml.bz2 dump), like Wikipedia ([Greek Wikipedia](https://dumps.wikimedia.org/elwiki/latest/)).
 **Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full file path of .xml.bz2]
 <br>_*Ollama model name can be found be the execute of command <code>ollama list</code>_
 
