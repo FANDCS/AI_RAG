@@ -37,5 +37,5 @@ After load of model Setup.py support indexing from a database (.xml.bz2 dump), l
 `-- Setup.py             (Main application script)</pre>
 
 ### Credits
-All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by **Kapelo Team**, which consists of @AndroidCreator5 and Aster.
+All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by **Kapelo Team**, which consists of @AndroidCreator5 and Asteris(aka Mr-sk1llZ).
 <br>__Python libraries: chromadb, pypdf, python-pptx, tqdm, requests, pytesseract, pdf2image, pillow, mwparserfromhell__
