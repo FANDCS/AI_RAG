@@ -1,0 +1,28 @@
+Ρύθμιση Ollama και στα 2 OS
+1. Εγκατάσταση Ollama (τρέχεις στο καθένα ξεχωριστά):
+bashcurl -fsSL https://ollama.com/install.sh | sh
+2. Ορισμός custom path — δημιουργείς/επεξεργάζεσαι το systemd override και στα 2 OS:
+bashsudo systemctl edit ollama
+Και βάζεις:
+ini[Service]
+Environment="OLLAMA_MODELS=/mnt/btrfsd/data/Models/ollama"
+3. Κατέβασμα του μοντέλου (μόνο μια φορά, από οποιοδήποτε OS):
+bashollama pull MHKetbi/ilsp-Llama-Krikri-8B-Instruct:q4_K_S
+
+
+./venv/bin/python Setup.py --model deepseek-r1:8b
+./venv/bin/python Setup.py --model krikri-gpu:latest
+ollama run hf.co/ilsp/Llama-Krikri-8B-Instruct-GGUF:Q5_K_M
+ollama run deepseek-r1:8b
+
+
+
+cd /mnt/btrfsd/data/ModelTrainning/
+# Δημιουργία περιβάλλοντος
+python -m venv venv
+
+# Ενημέρωση του pip μέσα στο venv
+./venv/bin/pip install --upgrade pip
+
+# Εγκατάσταση όλων των απαραίτητων βιβλιοθηκών
+./venv/bin/pip install chromadb pypdf python-pptx tqdm requests pytesseract pdf2image pillow

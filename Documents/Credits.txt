@@ -1,0 +1,1 @@
+Ollama, llama.cpp, GGUF, Python, requests, ast, json, venv, ChromaDB, Sentence-Transformers, PyMuPDF, Linux, BTRFS, ext4, Systemd.
