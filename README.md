@@ -18,27 +18,19 @@ Retrieval-Augmented Generation (or RAG), which loads a specific dataset into an 
 
 ## Parameters
 <code>--model [ollama model name*]</code> --> Example <code>./venv/bin/python Setup.py --model krikri-gpu:latest</code><br>
-After load of model Setup.py support indexing from a database (.xml.bz2 dump), like Wikipedia ([Greek Wikipedia](https://dumps.wikimedia.org/elwiki/latest/)).
-**Example:** <br>💬 Question: wiki <br>📂 Path from .xml.bz2 dump: [full file path of .xml.bz2]
 <br>_*Ollama model name can be found be the execute of command <code>ollama list</code>_
 
 ## Abilities
 - Support OCR from images, pdfs, pptx
 - In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing<br>
-- It supports the automatic extraction of files to the output folder
 - Multithread
 - Progress check
 - 100% locally executed (No API keys required)
 
 ## Paths
 **Full file path folder**<pre>
-|-- AuthorizedMath/      (Sources with Math/Logic for indexing)
-|-- AuthorizedThe/       (Sources with Theory for indexing)
 |-- db/                  (ChromaDB database directory)
 |-- materials/           (Materials/Documents storage)
-|-- OneTimeMath/         (One-time-use Math sources - no indexing)
-|-- OneTimeThe/          (One-time-use Theory sources - no indexing)
-|-- Output/              (Automatic file extraction folder)
 |-- venv/                (Python Virtual Environment)
 |-- Modelfile            (Ollama configuration file)
 |-- Modelfile.save       (Backup configuration file)
