@@ -38,4 +38,4 @@ Retrieval-Augmented Generation (or RAG), which loads a specific dataset into an 
 
 ### Credits
 All this code was written by [Claude](https://claude.ai) and [Gemini](https://gemini.google.com), while the idea and review were done by **Kapelo Team**, which consists of [Lefteris Trompakas](https://github.com/AndroidCreator5) and [Asteris Tsiboukas](https://github.com/Mr-sk1llZ).
-<br>__Python libraries: chromadb, pypdf, python-pptx, tqdm, requests, pytesseract, pdf2image, pillow, mwparserfromhell__
+<br>__Python libraries: chromadb, pypdf, python-pptx, tqdm, requests, pytesseract, pdf2image, pillow
