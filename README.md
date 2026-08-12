@@ -25,10 +25,10 @@ Retrieval-Augmented Generation (or RAG), which loads a specific dataset into an 
 - In the index, a selection is made between sources containing more theory and sources that primarily feature logical content (Mathematics - Computer Science). 'OneTime' refers to the folders containing  sources, meaning data that will be added to the model without indexing<br>
 - Multithread
 - Progress check
-- 100% locally executed (No API keys required)
+- 100% self-host (No API keys required)
 
 ## Paths
-**Full file path folder**<pre>
+**Full tree path folder**<pre>
 |-- db/                  (ChromaDB database directory)
 |-- materials/           (Materials/Documents storage)
 |-- venv/                (Python Virtual Environment)
